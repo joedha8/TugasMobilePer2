@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Belajar Layout</string>
+    <string name="string_oke">OYE</string>
+    <string name="string_hello_world">Hello World!</string>
+</resources>
