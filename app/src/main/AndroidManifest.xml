@@ -20,7 +20,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".PertemuanTigaActivity" />
         </activity>
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
         <activity
             android:name=".BioActivity"
             android:parentActivityName=".ProfileActivity">
@@ -42,15 +42,21 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".ProfileActivity" />
         </activity>
-        <activity android:name=".Tugas2.LoginActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".Tugas2.LoginActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Tugas2.SelamatDatangActivity" />
+        <activity android:name=".Pertemuan4.BelajarConstraintActivity" />
+        <activity android:name=".Tugas4.Tugas4Activity" />
+        <activity android:name=".Pertemuan5.Pertemuan5Activity"></activity>
+        <activity android:name=".Tugas5.FormPizzaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Tugas2.SelamatDatangActivity"></activity>
+        <activity android:name=".Tugas5.StructPesanActivity"></activity>
     </application>
 
 </manifest>
