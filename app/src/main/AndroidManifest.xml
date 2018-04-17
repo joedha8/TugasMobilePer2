@@ -48,15 +48,18 @@
         <activity android:name=".Tugas2.SelamatDatangActivity" />
         <activity android:name=".Pertemuan4.BelajarConstraintActivity" />
         <activity android:name=".Tugas4.Tugas4Activity" />
-        <activity android:name=".Pertemuan5.Pertemuan5Activity"></activity>
+        <activity android:name=".Pertemuan5.Pertemuan5Activity" />
         <activity android:name=".Tugas5.FormPizzaActivity">
+
+        </activity>
+        <activity android:name=".Tugas5.StructPesanActivity" />
+        <activity android:name=".Pertemuan6.Pertemuan6Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Tugas5.StructPesanActivity"></activity>
     </application>
 
 </manifest>
